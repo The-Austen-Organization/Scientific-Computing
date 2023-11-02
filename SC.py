@@ -1,5 +1,5 @@
-def cal(self):
-    Answer = eval(self)
+def cal(expr):
+    Answer = eval(expr)
     print(Answer)
 def mean(Mean):
     Mean = Mean.split()
