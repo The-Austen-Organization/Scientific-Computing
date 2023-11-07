@@ -95,6 +95,7 @@ while True:
                     print('    b  ')
                     SideA = input('What is A: ')
                     SideB = input('What is B: ')
+                    print(f"H is: {str((SideA**2  + SideB**2)**0.5)}")
 
             elif Program == 'file':
                 print('[Histogram]')
