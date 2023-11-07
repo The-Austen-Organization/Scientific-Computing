@@ -84,6 +84,7 @@ while True:
                     print(Numerator / Denominator * 100, '%')
             elif Program == 'geometry':
                 print('[Trigonometry]')
+                print("[Trig-func]")
                 Geometry = input('What program do you what to use: ').lower()
                 if Geometry == 'trigonometry':
                     print('     /|')
@@ -93,9 +94,11 @@ while True:
                     print(' /    |')
                     print('/_____|')
                     print('    b  ')
-                    SideA = input('What is A: ')
-                    SideB = input('What is B: ')
-
+                    SideA = float(input('What is A: '))
+                    SideB = float(input('What is B: '))
+                    print(f"H is: {str((SideA**2  + SideB**2)**0.5)}")
+                '''else Geometry == "trig-func":
+                    pass'''
             elif Program == 'file':
                 print('[Histogram]')
                 FileProgram = input('What program do you what to use: ').lower()
