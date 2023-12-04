@@ -3,9 +3,7 @@ class math():
     ##############################
     This is the math documentation
     ##############################
-
     This class has methods that do math.
-
     """
     def cal(self, expr: str) -> float:
         """
@@ -72,6 +70,3 @@ class math():
         return (str(Numerator / Denominator * 100) + '%', Numerator / Denominator * 100)
     class geometry():
         def pythagorean_theorem(self, a, b):
-
-
-
