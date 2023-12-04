@@ -83,10 +83,10 @@ while True:
                     Denominator = float(input('What is the Denominator: '))
                     print(Numerator / Denominator * 100, '%')
             elif Program == 'geometry':
-                print('[Trigonometry]')
+                print('[Pythagorean-Theorem]')
                 print("[Trig-func]")
                 Geometry = input('What program do you what to use: ').lower()
-                if Geometry == 'trigonometry':
+                if Geometry == 'pythagorean-theorem':
                     print('     /|')
                     print('    / |')
                     print('   /  |')
